@@ -9,6 +9,7 @@ import Order from './pages/order/Order';
 import Cart from './pages/cart/Cart';
 import Dashboard from './pages/admin/dashboard/Dashboard';
 import NoPage from './pages/nopage/NoPage';
+import MyState from './context/data/myState';
 
 const App = () => {
   return (
