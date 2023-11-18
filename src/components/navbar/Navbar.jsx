@@ -8,7 +8,7 @@ import { RxCross2 } from 'react-icons/rx'
 
 const Navbar = () => {
 
-    const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false)
 
   const context = useContext(myContext)
   const { toggleMode, mode } = context

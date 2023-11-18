@@ -13,6 +13,7 @@ import MyState from './context/data/myState';
 
 const App = () => {
   return (
+    <MyState>
     <Router>
      <Routes>
        <Route path='/' element={<Home/>}/>
@@ -22,6 +23,7 @@ const App = () => {
        <Route path='/*' element={<NoPage/>}/>
      </Routes>
     </Router>
+    </MyState>
   )
 }
 
