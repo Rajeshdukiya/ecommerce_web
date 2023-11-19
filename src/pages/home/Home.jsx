@@ -18,6 +18,7 @@ const Home = () => {
      <Filter/>
      <ProductCard/>
      <Testimonial/>
+    
     </Layout>
   )
 }
