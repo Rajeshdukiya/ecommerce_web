@@ -13,6 +13,8 @@ import MyState from './context/data/myState';
 import Login from './pages/registration/Login';
 import Signup from './pages/registration/Signup';
 import ProductInfo from './pages/productInfo/ProductInfo';
+import AddProduct from './pages/admin/pages/AddProduct';
+import UpdateProduct from './pages/admin/pages/UpdateProduct';
 
 
 const App = () => {
@@ -28,6 +30,9 @@ const App = () => {
        <Route path='/signup' element={<Signup/>}/>
        <Route path='/*' element={<NoPage/>}/>
        <Route path='/productinfo/:id' element={<ProductInfo/>}/>
+       <Route path='/addproduct' element={<AddProduct/>}/>
+       <Route path='/updateproduct' element={<UpdateProduct/>} />
+       
      </Routes>
     </Router>
     </MyState>
